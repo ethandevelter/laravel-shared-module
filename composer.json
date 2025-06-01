@@ -1,5 +1,5 @@
 {
-    "name": "adalace/laravel-shared-module",
+    "name": "ethandevelter/laravel-shared-module",
     "description": "Shared Laravel backend logic and Vue components",
     "type": "library",
     "license": "MIT",
@@ -17,9 +17,6 @@
     },
     "require-dev": {
         "illuminate/support": "^12.16"
-    },
-    "require": {
-        "ethandevelter/laravel-shared-module": "dev-main"
     },
     "repositories": [
         {
