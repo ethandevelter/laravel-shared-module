@@ -1,0 +1,21 @@
+{
+    "name": "adalace/laravel-shared-module",
+    "description": "Shared Laravel backend logic and Vue components",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+        "Adalace\\SharedModule\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+        "providers": [
+            "Adalace\\SharedModule\\SharedModuleServiceProvider"
+        ]
+        }
+    },
+    "require-dev": {
+        "illuminate/support": "^12.16"
+    }
+}
