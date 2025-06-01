@@ -17,5 +17,16 @@
     },
     "require-dev": {
         "illuminate/support": "^12.16"
-    }
+    },
+    "require": {
+        "ethandevelter/laravel-shared-module": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ethandevelter/laravel-shared-module.git"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
